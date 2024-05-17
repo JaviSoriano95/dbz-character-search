@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { DbzCard, DbzCharacter } from '../cards/dbzCard';
+import { DbzCard, DbzCharacter } from '../../cards/dbzCard';
 import { Observable, catchError, debounceTime, tap, throwError } from 'rxjs';
 
 @Injectable({

@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { CardListServiceService } from '../../card-list-service.service';
+import { CardListServiceService } from '../../services/card-list-service.service';
 import { DbzCard, DbzCharacter } from '../../../cards/dbzCard';
 import { debounceTime } from 'rxjs';
 

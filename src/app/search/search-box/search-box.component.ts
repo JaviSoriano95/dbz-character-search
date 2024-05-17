@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Output } from '@angular/core';
-import { CardListServiceService } from '../../card-list/card-list-service.service';
+import { CardListServiceService } from '../../card-list/services/card-list-service.service';
 import { DbzCard, DbzCharacter } from '../../cards/dbzCard';
 
 @Component({
