@@ -1,0 +1,9 @@
+
+
+.zoom {
+  transition: transform 0.3s ease; /* Duración y suavidad de la transición */
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* Aumenta el tamaño al 110% cuando se pasa el cursor */
+}

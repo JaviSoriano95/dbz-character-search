@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+
+body {
+  background-image: linear-gradient(to bottom, #022384, #2a92e7);
+  background-repeat: no-repeat !important;/* Degradado de azul oscuro (#153eb9) a azul claro (#b3c0f7) */
+  min-height: 100vh;
+}
+

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DbzCharacter } from './cards/dbzCard';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pruebaTecnica';
+  personajesFiltrados: DbzCharacter[] = [];
+  filtrarPersonajes(personajes: DbzCharacter[]) {
+    this.personajesFiltrados = personajes;
+  }
+
 }
